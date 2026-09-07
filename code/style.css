@@ -65,10 +65,10 @@ h1{
 
 .letterchange:hover {
     color: white;
-    transition: 0.2s;
+    transition: 0.1s;
     cursor: default;
 }
 
 .letterchange:not(:hover){
-    transition: 0.2s;
+    transition: 0.8s;
 }
