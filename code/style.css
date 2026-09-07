@@ -58,3 +58,17 @@ footer  {
     list-style-type: none;
     padding: 0;
 }
+
+h1{
+    cursor: default;
+}
+
+.letterchange:hover {
+    color: white;
+    transition: 0.2s;
+    cursor: default;
+}
+
+.letterchange:not(:hover){
+    transition: 0.2s;
+}
