@@ -72,3 +72,10 @@ h1{
 .letterchange:not(:hover){
     transition: 0.8s;
 }
+
+footer div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+}
