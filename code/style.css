@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #804012;
+    background-color: #6c350e;
     height: 70px;
     padding: 0 5px;
     box-shadow: 0 -6px 20px 5px black;
@@ -40,7 +40,7 @@ a:hover {
   font-style: normal;
   font-variation-settings:
     "width" 100;
-    color: #E6AE86;
+    color: white;
 }
 
 .padding    {
@@ -48,7 +48,7 @@ a:hover {
 }
 
 footer  {
-    background-color: #804012;
+    background-color: #6c350e;
     margin-top: auto;
     height: 70px;
     padding: 0 0px;
@@ -63,14 +63,27 @@ h1{
     cursor: default;
 }
 
+#test  {
+    color: pink;
+}
+
 .letterchange:hover {
-    color: white;
+    color: blue;
     transition: 0.1s;
     cursor: default;
 }
 
 .letterchange:not(:hover){
     transition: 0.8s;
+}
+
+.ptest  {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button  {
+    background-color: #fd9516;
+    color: black;
 }
 
 footer div{
