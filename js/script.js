@@ -7,6 +7,14 @@ function jtoggle() {
     box.classList.toggle("ptest");
 }
 
-function ptoggle() {
-    
+function ptoggleadd() {
+    const logo = document.querySelector("#logo")
+    logo.classList.add("logorotate")
 }
+
+function ptoggleremove() {
+    const logo = document.querySelector("#logo")
+    logo.classList.remove("logorotate")
+}
+
+document.getElementById("calculator").textContent = (8*3*2);

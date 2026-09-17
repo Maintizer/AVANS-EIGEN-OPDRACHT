@@ -20,6 +20,10 @@ header {
     align-items: center;
 }
 
+.logorotate{
+    transform: rotate(180deg);
+}
+
 a{
     background-color: transparent;
     border-color: transparent;
