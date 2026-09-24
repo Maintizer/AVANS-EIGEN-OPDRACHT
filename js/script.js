@@ -18,3 +18,11 @@ function ptoggleremove() {
 }
 
 document.getElementById("calculator").textContent = (8*3*2);
+
+function personal(){
+    document.getElementById("personal").classList.toggle("hideCard");
+}
+
+function buttonPress(){
+    document.getElementById("buttonMark").classList.toggle("buttonPress");
+}
