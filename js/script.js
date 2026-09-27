@@ -8,5 +8,13 @@ function jtoggle() {
 }
 
 function ptoggle() {
-    
+    const logotoggle = document.querySelector("#logotoggle");
+    logotoggle.classList.add("logorotateA");
 }
+
+function ptoggleB() {
+    const logotoggle = document.querySelector("#logotoggle");
+    logotoggle.classList.remove("logorotateA");
+}
+
+document.getElementById("calculator").textContent = (8*3*2);

@@ -8,12 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Valley+Sans&display=swap" rel="stylesheet">
-    <script src="../js/script.js" defer></script>
 </head>
 <body>
     <main>
         <header>
-            <img width="90" src="../design/coffee2.webp" alt="Cup of coffee">
+            <img id="logotoggle" width="90" src="../design/coffee2.webp" alt="Cup of coffee">
             <nav>
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
@@ -33,7 +32,9 @@
 
         <p id="box" class="ptest">Dit is een paragraaf om mee te testen.</p>
         <button onclick="jtoggle()">Change the font</button>
-        <button onclick="">Rotate the logo</button>
+        <button onclick="ptoggle()">Rotate the logo</button>
+        <button onclick="ptoggleB()">Rotate back</button>
+        <p id="calculator"></p>
     </div>
     
     <footer>
@@ -45,5 +46,6 @@
             </ul>
         </div>
     </footer>
+    <script src="../js/script.js" defer></script>
 </body>
 </html>
