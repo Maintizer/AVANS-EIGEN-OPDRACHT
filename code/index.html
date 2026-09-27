@@ -12,7 +12,7 @@
 <body>
     <main>
         <header>
-            <img id="logotoggle" width="90" src="../design/coffee2.webp" alt="Cup of coffee">
+            <img id="logo" width="90" src="../design/coffee2.webp" alt="Cup of coffee">
             <nav>
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
@@ -30,11 +30,15 @@
             <li>Coding</li>
         </ul>
 
-        <p id="box" class="ptest">Dit is een paragraaf om mee te testen.</p>
+        <p id="box" class="ptest">Verander mijn font met de knop hier onder.</p>
         <button onclick="jtoggle()">Change the font</button>
         <button onclick="ptoggle()">Rotate the logo</button>
         <button onclick="ptoggleB()">Rotate back</button>
         <p id="calculator"></p>
+
+        <div id="personal" class="personal">Klik op de knop om mij uit te schakelen</div>
+        <button onclick="personal()">Schakel het bovenste vak uit</button>
+        <button onclick="buttonPress()" id="buttonMark">Ik val op als je op mij klikt</button>
     </div>
     
     <footer>

@@ -20,7 +20,10 @@ header {
     align-items: center;
 }
 
-.logorotateA{
+.logorotateA,
+.logorotate{
+    transform: rotate(180deg);
+}
     transform: rotate(180deg);
 }
 
@@ -88,6 +91,22 @@ h1{
 button  {
     background-color: #fd9516;
     color: black;
+}
+
+.personal{
+    height: 70px;
+    width: 300px;
+    background-color: aqua;
+    border-radius: 20px;
+    align-content: center;
+}
+
+.hideCard{
+    display: none;
+}
+
+.buttonPress{
+    background-color: aqua;
 }
 
 footer div{
