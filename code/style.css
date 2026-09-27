@@ -24,8 +24,6 @@ header {
 .logorotate{
     transform: rotate(180deg);
 }
-    transform: rotate(180deg);
-}
 
 a{
     background-color: transparent;
@@ -48,6 +46,7 @@ a:hover {
   font-variation-settings:
     "width" 100;
     color: white;
+    font-size: 16px;
 }
 
 .padding    {
@@ -107,6 +106,14 @@ button  {
 
 .buttonPress{
     background-color: aqua;
+}
+
+main {
+    margin: 10px;
+}
+
+.accent {
+    color: lightcoral;
 }
 
 footer div{
