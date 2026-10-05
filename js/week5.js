@@ -48,6 +48,5 @@ genButton.addEventListener("click", function(){
     else{
         window.alert("This year does not have a name.");
     }
-
     
 });
