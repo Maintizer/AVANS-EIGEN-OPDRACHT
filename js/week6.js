@@ -34,7 +34,10 @@ function addElement(card){
     extraElement.classList.add("extraElement");
 
     // Add elements to article
-    articleElement.append(titleElement, descriptionElement, extraElement);
+    // articleElement.append(titleElement, descriptionElement, extraElement);
+    articleElement.appendChild(titleElement);
+    articleElement.appendChild(descriptionElement);
+    articleElement.appendChild(extraElement);
     
     // Return result
     cardsContainer.append(articleElement);
